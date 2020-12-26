@@ -1,0 +1,52 @@
+body{
+  background: #F1E8E6;
+}
+.kutu1{
+font-size: 1.2rem;
+padding: 3rem;
+font-weight: bold;
+border-radius: 1rem;
+margin-top: 30px;
+margin-left: 25px;
+margin-right: 700px;
+margin-bottom: 30px;
+weight: 500px;
+}
+.kutu-2{
+  font-size: 1.2rem;
+  padding: 2rem;
+  font-weight: bold;
+  border-radius: 1rem;
+  margin-top: 30px;
+  margin-left: 25px;
+  margin-right: 900px;
+  margin-bottom: 20px;
+  weight: 500px;
+}
+.kutu-3{
+  font-size: 1.2rem;
+  padding: 2rem;
+  font-weight: bold;
+  border-radius: 1rem;
+  margin-top: 30px;
+  margin-left: 25px;
+  margin-right: 780px;
+  margin-bottom: 20px;
+  weight: 500px;
+height: 200px;
+}
+.kutu-4{
+  font-size: 1.2rem;
+  padding: 2rem;
+  font-weight: bold;
+  border-radius: 1rem;
+  margin-top: 30px;
+  margin-left: 25px;
+  margin-right: 100px;
+  margin-bottom: 20px;
+  weight: 500px;
+height: 200px;
+}
+.resim img{
+  width: %10;
+}

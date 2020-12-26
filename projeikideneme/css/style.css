@@ -1,0 +1,23 @@
+.genelkutu {
+  height: 95vh;
+  overflow: hidden;
+  margin-top: 1%;
+  background-color: #160C6E;
+}
+@media (min-width: 768px) {
+.buyukdaire {
+  background-color: #3F21D0;
+  height: 120%;
+  width:60%;
+  margin-top: -6%;
+  margin-left: 20%;
+}
+ .kucukdaire {
+   background: linear-gradient(321.25deg, #DF387C -33.39%, #FF602C 103.69%);
+   height: 60%;
+   width: 60%;
+   margin:auto;
+  position: relative;
+  top: 19%;
+ }
+ 

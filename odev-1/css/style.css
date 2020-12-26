@@ -1,0 +1,44 @@
+body {
+  margin: 2% 10%;
+}
+
+.profil-resmi {
+  width: 100px;
+  height: 100px;
+}
+
+.hakkimda {
+
+border: solid;
+  padding: 2% 2%;
+  background-color: #cffffe;
+}
+.hakkimda-yazi{
+  padding-left: 2rem;
+}
+.hobilerim{
+  padding: 2% 2%;
+  background-color: #f9f7d9;
+}
+.hobilerim-yazi{
+  padding-right: 2rem;
+
+}
+
+.hobi-resmi{
+       width:150px;
+       height:150px;
+     }
+     .bildigim-diller{
+      padding: 2% 2%;
+      background-color:#fce2ce;
+    }
+    .bildigim-diller-yazi{
+      padding-left: 2rem;
+
+    }
+    .bildigim-diller-resmi{
+      width: 150px;
+      height: 150px;
+
+    }

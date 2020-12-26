@@ -1,0 +1,66 @@
+.navbar{
+  padding: 0 1rem;
+
+}
+.arkaplan-renk{
+  background-color:  #30475e;
+}
+
+.nav-radius{
+  border-radius: 1.2rem;
+}
+.container-fluid{
+  padding-top: 20px;
+}
+.navbar-brand{
+  font-family: 'Henny+Penny';
+  font-size: 1.8rem;
+    font-weight: bold;
+  }
+
+
+.ust-bolum-alt-bolum-bosluk{
+  padding: 45px 0;
+}
+.İletisim-linkleri {
+    font-family: 'Ubuntu';
+    font-size: 2rem;
+    line-height: 1.8;
+    margin-bottom: 10%;
+}
+
+.fas{
+  color:#ffc107;;
+  margin-bottom: 5%;
+
+}
+.arkaplan-gri{
+  background-color: #ebebeb;
+}
+
+/* ekran minimum 768px ise */
+@media (min-width: 768px) {
+  .resim{
+    width: 50%;
+    transform: rotate(25deg);
+  }
+}
+
+@media (max-width: 767px) {
+  .resim{
+    margin-top:30px;
+    width: 50%;
+    transform: rotate(0deg);
+  }
+
+  @media (min-width: 992px) {
+    .r-l-fluid-padding{
+      padding: 3% 15%;
+    }
+  }
+
+  @media (max-width: 991px) {
+    .r-l-fluid-padding{
+      padding: 3% 3%;
+    }
+  }

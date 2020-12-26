@@ -1,0 +1,90 @@
+/*
+  tüm kutulara class title şeklinde elemetn açalımedia
+  elementin yazı boyutu 2rem olsun
+  ve yazıyı ortalayalım
+  renk kodu da beyaz olsun
+  10px padding
+  Basic Standart Premium
+*/
+.fiyat{
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  font-size: 2.5rem;
+  color:white;
+  padding: 10px;
+}
+.dolar{
+  margin-bottom:10px;
+}
+.bilgiler{
+  color: white;
+  font-size:1.2rem;
+}
+.title{
+  color: white;
+  font-size: 1.5rem;
+  padding : 10px;
+  text-align: center;
+  font-family: sans-serif;
+}
+.ortak{
+  padding: 10px;
+  margin: 15px;
+  float:left;
+  border-radius: 25px;
+  box-sizing: border-box;
+}
+.icon1{
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(135deg, #5FB4FE 0%, #F439DA 100%  );
+  border-radius: 50%;
+  font-size:3.2rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:0 auto;
+}
+.icon2{
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(135deg, #FC20DA 0%, #FAEB7F 100%  );
+  border-radius: 50%;
+  font-size:3.2rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:0 auto;
+}
+.icon3{
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(135deg, #9455F6 0%, #3EFB85 100%  );
+  border-radius: 50%;
+  font-size:3.2rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:0 auto;
+}
+.kutu1{
+  width:275px;
+  height: 400px;
+  background: linear-gradient(135deg, #5FB4FE 0%, #F439DA 100%  );
+  margin-top:35px;
+}
+.kutu2{
+  width: 275px;
+  height: 440px;
+  background: linear-gradient(135deg, #FC20DA 0%, #FAEB7F 100%  );
+}
+.kutu3{
+  width: 275px;
+  height: 400px;
+  background: linear-gradient(135deg, #9455F6 0%, #3EFB85 100%  );
+  margin-top:35px;
+}

@@ -1,0 +1,172 @@
+body{
+  background-color: #160C6E;
+  background-image: url("C:/Users/User/OneDrive/Masaüstü/WebDevelopment/grupprojesiiki/resimler/fotograf.jpg");
+  background-repeat: no-repeat;
+
+
+}
+.buyukdaire{
+  background-color: #3F21D0;
+  border-radius: 50%;
+  margin-left: 190px;
+  height: 700px;
+  width: 700px;
+  position: fixed;
+  top:-45px;
+}
+.kucukdaire{
+  background: linear-gradient(321.25deg, #DF387C -33.39%, #FF602C 103.69%);
+  height: 410px;
+  width: 410px;
+  border-radius: 50%;
+position: fixed;
+top: 110px;
+left: 430px;
+}
+
+.grresim{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -35px;
+  margin-top: -10px;
+  overflow:visible;
+}
+
+.baloncuk1 {
+  width: 30px;
+  height: 30px;
+  border: 1px solid;
+  border-color: #ffffff;
+  position: absolute;
+  left: 355px;
+  top: 45px;
+}
+
+.baloncuk2{
+  width: 10px;
+  height: 10px;
+  border: 1px solid;
+  border-color: #ffffff;
+  position: absolute;
+  left: 700px;
+  top: 80px;
+}
+
+.baloncuk3{
+  width: 15px;
+  height: 15px;
+  border: 1px solid;
+  border-color: #ffffff;
+  position: absolute;
+  left: 950px;
+  top: 80px;
+}
+
+.baloncuk4{
+  width: 15px;
+  height: 15px;
+  border: 1px solid;
+  border-color: #ffffff;
+  position: absolute;
+  left: 395px;
+  top: 250px;
+}
+
+.baloncuk5{
+  width: 10px;
+  height: 10px;
+  border: 1px solid;
+  border-color: #ffffff;
+  position: absolute;
+  left: 700px;
+  top: 430px;
+}
+
+.baloncuk6{
+  width: 15px;
+  height: 15px;
+  border: 1px solid;
+  border-color: #ffffff;
+  position: absolute;
+  left: 770px;
+  top: 480px;
+}
+
+.baloncuk7{
+  width: 15px;
+  height: 15px;
+  border: 1px solid;
+  border-color: #ffffff;
+  position: absolute;
+  left: 1000px;
+  top: 480px;
+}
+
+.baloncuk8{
+  width: 40px;
+  height: 40px;
+  border: 1px solid;
+  border-color: #ffffff;
+  position: absolute;
+  left: 330px;
+  top: 510px;
+}
+
+
+.shop {
+  width: 60px;
+  height: 50px;
+  margin-left: 25px;
+  margin-top: -20px;
+}
+.aramaikon {
+  padding-right: 30px;
+  color: white;
+}
+.gear-vr-sol{
+  position: absolute;
+  top:170px;
+  left: 30px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.size{
+  font-size: 80px;
+  font-weight: bold;
+
+  font-weight:900px;
+  font-weight: bold;
+  position: absolute;
+  top: 200px;
+  left:705px;
+   font-family: 'Montserrat' sans-serif;
+}
+
+.content-section{
+  line-height: 7px;
+  position: absolute;
+  top: 300px;
+  left:820px;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+}
+.find-out-more{
+    position: absolute;
+    top: 350px;
+    left:910px;
+    background: linear-gradient(321.25deg, #DF387C -33.39%, #FF602C 103.69%);
+    border-radius: 2rem;
+    height: 40px;
+    font-size: 0.9rem;
+     font-family: 'Montserrat', sans-serif;
+  }
+
+
+
+.footer{
+  position: absolute;
+  bottom: 25px;
+left: 20px;
+}

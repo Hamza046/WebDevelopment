@@ -1,0 +1,68 @@
+
+body {
+  background-color: #FAD961;
+  height: 110%;
+  width: 110%;
+}
+img {
+  width: 30px;
+}
+.proje1{
+  background-image: url("C:/Users/User/OneDrive/Masaüstü/WebDevelopment/grupprojesi/css/speaker.png");
+  -webkit-background-size: 55% 50%;
+  background-repeat: no-repeat;
+  background-position: bottom 0px right 0px;
+}
+.crowdfont{
+  font-size: 1.5rem;
+  font-family: 'Poppins', sans-serif;
+}
+.boyut{
+  margin-right: 10px;
+display: flex;
+float: left;
+  width:40px;
+}
+.dropdown-menu{
+  background-color: #FAD961;
+}
+.profilresmi{
+  padding-right: 10px;
+}
+.play, .speaker, .ucret{
+  display: flex;
+  justify-content: center;
+}
+.speaker{
+  font-size: 4.5rem;
+}
+.pledged{
+  border-left: 0.3px solid;
+}
+.ucret{
+  border-radius: 30px;
+  border: 1px;
+  border: 3px solid;
+  width: 28%;
+  margin:0 auto;
+}
+.solorta{
+  margin-top: 190px;
+}
+.yaziboyut{
+  font-size: 0.6rem;
+}
+.ikonkatman{
+margin-left: 60px;
+}
+.ikonsetting{
+margin-left: 60px;
+}
+.footeryaziboyut{
+  font-size: 0.8rem;
+  margin-left: 0px;
+}
+.linkler{
+  font-size: 0.8rem;
+  padding-left: 150px;
+}

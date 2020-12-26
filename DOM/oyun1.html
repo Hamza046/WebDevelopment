@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Oyun</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/oyun1.css">
+  </head>
+  <body>
+  <div class="container">
+    <h1 id="baslat" onclick="oyunuBaslat()" class="text-center p-3 m-3">Oyunu Başlat !</h1>
+    <div class="row">
+      <div class="col-6 d-flex justify-content-center align-items-center flex-column">
+        <h2>Oyuncu 1</h2>
+        <img id="zar1" src="1.png" width="250" alt="">
+      </div>
+      <div class="col-6 d-flex justify-content-center align-items-center flex-column">
+        <h2>Oyuncu 2</h2>
+        <img id="zar2" src="1.png" width="250" alt="">
+      </div>
+    </div>
+    <h4 id="sonuc" class="text-center p-3 text-success"></h4>
+  </div>
+    <script type="text/javascript">
+      function oyunuBaslat(){
+        var baslatElementi = document.querySelector("#baslat");
+        var oyuncu1Zar     = document.querySelector("#zar1");
+        var oyuncu2Zar     = document.querySelector("#zar2");
+        var sonuc          = document.querySelector("#sonuc");
+        var rastgeleSayi1  =  Math.floor(Math.random() * 6) + 1 ;        //     1 - 6
+        var rastgeleSayi2  =  Math.floor(Math.random() * 6) + 1 ;        //     1 - 6
+        // rastgeleSayi1 -> 2
+        // rastgeleSayi2 -> 5
+        // <img id="zar2" src="3.png" width="250" alt="">
+        var resimAdresi1 = rastgeleSayi1 + ".png";
+        oyuncu1Zar.setAttribute("src" , resimAdresi1);
+        var resimAdresi2 = rastgeleSayi2 + ".png";
+        oyuncu2Zar.setAttribute("src" , resimAdresi2);
+        if( rastgeleSayi1 > rastgeleSayi2 ){
+          // oyuncu 1 kazandı
+          sonuc.innerText = "Oyuncu 1 Kazandı !";
+        }else if( rastgeleSayi2 > rastgeleSayi1 ){
+          // oyuncu 2 kazandı
+          sonuc.innerText = "Oyuncu 2 Kazandı !";
+        }else{
+          // oyun berabere
+          sonuc.innerText = "Oyun Berabere !";
+        }
+      }
+    </script>
+  </body>
+</html>

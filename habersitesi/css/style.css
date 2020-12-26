@@ -1,0 +1,46 @@
+
+:root{
+  --ana-renk:orange;
+  --baslik-boyut:2 rem;
+  --border-olcusu:0.5 rem;
+}
+
+
+body{
+  font-size: 16px;
+  background-color: #f1faee;
+background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 1)),
+url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdf9rfQDxZtDAmRQrprlFpbbM2p_QVGWAI5w&usqp=CAU");
+background-repeat:no-repeat;
+background-size: cover;
+}
+
+.navbar-dark .navbar-brand {
+  font-weight: bold;
+  color: var(--ana-renk) !important;
+  font-weight: bold;
+  font-size: var(--baslik-boyut);
+}
+
+.populer-baslik {
+  font-weight: bold;
+  background-color: var(--ana-renk);
+  color: white;
+}
+
+
+.ekonomi{
+  border-left: 7px  var(--ana-renk); solid;
+  padding: 0.8rem;
+  font-size:1.2rem;
+}
+.card{
+  border-radius: var(--border-olcusu);
+ background-color: black;
+ color: white;
+}
+
+.card-img-top{
+  border-radius-left-radius:var(--border-olcusu);
+  border-top-right-radius: var(--border-olcusu);
+}

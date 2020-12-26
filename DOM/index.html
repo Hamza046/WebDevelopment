@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Document Object Model</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- <script src="harici.js" charset="utf-8"></script> -->
+    <style media="screen">
+      .baslik-bolumu {
+        width:300px;
+        text-align: center;
+        border: 5px solid yellow;
+        background-color: blue;
+        border-radius : 50px;
+      }
+      .sari{
+        color: yellow;
+      }
+      h1 {
+      }
+      .deneme .cocuk{
+      }
+      .selam.cocuk {
+      }
+      .renk-kodu{
+        color: #fefefe !important;
+      }
+    </style>
+  </head>
+  <body class="p-3">
+    <button class="btn-light" onclick="renkDegistirme()">Dark Moda Geçiş Yap !</button>
+    <h1 id="baslik">Merhabalar</h1>
+    <div class="aciklama ikinciclass" >Burası Document Object Model çalıştığımız sayfadır.</div>
+    <br>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+
+    <script type="text/javascript">
+      var saat = (new Date).getHours(); // 24'lük sisteme göre saati veriyor 23
+      if(saat > 18 || saat < 5){
+        renkDegistirme();
+      }
+      function renkDegistirme() {
+        // body elementini bulduk
+        var bodyElementi = document.querySelector("body");
+        // button elementini bulduk
+        var buttonElementi = document.querySelector("button");
+        // eğer body elementinin bg-dark class'ı varsa sil, yoksa bg-dark class'ı ekle
+        bodyElementi.classList.toggle("bg-dark");
+        // eğer body elementinin text-light class'ı varsa sil, yoksa text-light class'ı ekle
+        bodyElementi.classList.toggle("text-light");
+        // eğer button elementin btn-dark class'ı varsa sil, yoksa btn-dark class'ı ekle
+        buttonElementi.classList.toggle("btn-dark");
+        // eğer elementin bg-dark class'ı yoksa, demekki sayfa şuanda light modda
+        // eğer elementin bg-dark class'ı varsa, demekki sayfa şuanda dark modda.
+        if( bodyElementi.classList.contains("bg-dark") )
+        {
+          buttonElementi.innerText = "Light Moda Geçiş Yap !";
+        }else{
+          buttonElementi.innerText = "Dark Moda Geçiş Yap !";
+        }
+
+    </script>
+  </body>
+</html>
